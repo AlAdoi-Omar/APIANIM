@@ -1,0 +1,63 @@
+#serachResult {
+    max-width: 520px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 0 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+    position: absolute;
+    z-index: 99;
+    border: #7a7a7a;
+    display: none;
+
+}
+
+#serachResult li {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 5px 25px;
+}
+serachResult li a {
+    color: #333;
+    font-size: 14px;
+}
+#serachResult li:hover {
+    background-color: #f1f1f1;
+}
+
+#displayImage {
+    display: none;
+    position: absolute;
+    left:650px;
+    width: 150px;
+    height: 150px;
+}
+#displayImage img {
+    border-radius: 25px;
+}
+#topTvAnmia,
+#mostPlayd,
+#topCategories {
+    overflow-x: scroll;
+}
+#topTvAnmia img {
+    height: 50vh;
+    object-fit: cover;
+}
+#mostPlayd img {
+    height: 25vh;
+    object-fit: cover;
+}
+#topCategories img {
+    height: 20vh;
+    width: 200px;
+    object-fit: cover;
+}
+#randomCharacter span.name {
+    background-color: #ee626b;
+    padding: 5px 10px;
+    border-radius: 25px;
+    top:-15px;
+    position: relative;
+    color: #fff;
+}
